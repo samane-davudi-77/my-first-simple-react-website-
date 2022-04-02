@@ -1,0 +1,53 @@
+
+  .hero-container {
+    background: url('/public/images/img-home.jpg') center center/cover no-repeat;
+    height: 600px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2); 
+    object-fit: contain;
+    font-family: BYekan;
+  }
+  
+  .hero-container > h1  {
+    color: #fff;
+    font-size: 100px;
+    margin-top: 100px;
+  }
+  
+  .hero-container > h4 {
+    margin-top: 8px;
+    color: #fff;
+    font-size: 32px;
+    font-family: 'BYekan'
+  }
+  
+  .hero-btns {
+    margin-top: 32px;
+  }
+  
+  .hero-btns .btn {
+    margin: 6px;
+  }
+  
+  .fa-play-circle {
+    margin-left: 4px;
+  }
+  
+    .hero-container > p {
+      font-size: 30px;
+    }
+  
+    .btn-mobile {
+      display: block;
+      text-decoration: none;
+    }
+  
+    .btn {
+      width: 100%;
+    }
+  
+  

@@ -1,0 +1,24 @@
+.myloginpage {
+   width: 100%;
+   height: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+   align-items: center;
+}
+
+.myform {
+    width: 50%;
+    height: 50%;
+    margin-top: 5%;
+    border: solid 1px gray;
+}
+.myformstyle {
+    padding: 5%;
+}
+.mybutton {
+    display: flex;
+    justify-content: center;
+   
+    
+}

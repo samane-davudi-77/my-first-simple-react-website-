@@ -1,0 +1,51 @@
+.myimgcontainer {
+    width: 100%;
+    position: relative;
+  
+    
+}
+
+.myimg {
+    display: block;
+    position: absolute;
+    object-fit: cover;
+    right:0;
+    width: 97%;
+    height: auto;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in;
+}
+
+.myimg:hover {
+    width: 100%;
+    height: auto;
+}
+.overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: block;
+    overflow: hidden;
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+    -webkit-transform: scale(0.5);
+    transform: scale(0.9);
+    -webkit-transition: .2s ease;
+    transition: .2s ease;
+}
+
+.myimgcontainer:hover .overlay {
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+  }
+  .mycardbody {
+      position: absolute;
+      right:0px;
+      width: 97%;
+      text-align: right;
+      bottom: 0px;
+    
+  }
